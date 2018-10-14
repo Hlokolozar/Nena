@@ -28,14 +28,14 @@ $(document).ready(function() {
     });
 
 
- /* Home Slideshow Vegas
+ /* Home Slideshow Vegas Imgs
   -----------------------------------------------*/
   $(function() {
     $('body').vegas({
         slides: [
-            { src: 'images/slide1.jpg' },
-            { src: 'images/slide2.jpg' },
-            { src: 'images/slide3.jpg' }
+            { src: 'http://www.nena.africa/wp-content/themes/nena/images/slide1.jpg' },
+            { src: 'http://www.nena.africa/wp-content/themes/nena/images/slide2.jpg' },
+            { src: 'http://www.nena.africa/wp-content/themes/nena/images/slide3.jpg' }
         ],
         timer: false,
         transition: [ 'zoomIn', ],
